@@ -1,16 +1,27 @@
 body{
     margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h2{
-    font-family: Arial, Helvetica, sans-serif;
+p{
+    text-align:left;
+    
+}
+
+a{
+    width: 259px;
+    height: 78px;
+    background: #FAE6B0 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 22px;
+    opacity: 1;
 }
 .mainContainer{
     display:flex;
     justify-content: center;
 }
 .bigContainer{
-    
+    width:600px;
     background: #FAF2DC 0% 0% no-repeat padding-box;
     box-shadow: 3px 3px 10px #00000029;
     border-radius: 20px;
@@ -25,6 +36,7 @@ h2{
     background:#FAE6B0;
     text-align:center;
     margin:10px;
+    margin-bottom: 20px;;
     border-radius:100px;
 }
 .imageMbah{
@@ -34,4 +46,9 @@ h2{
     box-shadow: 3px 3px 10px #00000029;
     border-radius: 22px;
     opacity: 1;
+}
+
+.textInput{
+    margin-top:20px;
+    margin-bottom: 20px;
 }
